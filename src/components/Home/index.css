@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #152850;
+  height: 85vh;
+}
+
+.digital-card-image {
+  height: 140px;
+}
+
+@media screen and (min-width: 768px) {
+  .digital-card-image {
+    height: 250px;
+  }
+}
+
+.home-heading {
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
